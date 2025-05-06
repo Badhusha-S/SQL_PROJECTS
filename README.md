@@ -21,7 +21,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 * Computed monthly percent change.
 * Identified top performers each month.
 
-**💻 Query:**[best_monthly_performers.sql](best_monthly_performers.sql)
+**💻 Query:**[best_monthly_performers.sql](Scripts/best_monthly_performers.sql)
 
 **📈 Visualization:** ![alt text](images/image.png)
 
@@ -45,7 +45,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 * Subtracted low price from high price daily.
 * Grouped by ticker and date.
 
-**💻 Query:** [daily_price_range.sql](<daily_price range .sql>)
+**💻 Query:** [daily_price range.sql](<Scripts/daily_price range .sql>)
 
 **📈 Visualization:** ![alt text](images/daily_price_range.png)
 
@@ -68,7 +68,8 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 * Used window functions to compare first open and last close per stock.
 * Ranked by overall percent return.
 
-**💻 Query:** [highest gainer.sql](<highest gainer .sql>),[lowest gainer sql](<lowest gainer.sql>)
+**💻 Query:** [highest_gainer.sql](<Scripts/highest gainer .sql>),
+[lowest_gainer.sql](<Scripts/lowest gainer.sql>)
 
 **📈 Visualization:** ![alt text](<images/HIGHEST GAINER.png>),![alt text](<images/LOWEST GAINER.png>)
 
@@ -92,7 +93,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 
 * Compared first open and last close by month and ticker.
 
-**💻 Query:**[monthly price change %.sql](<monthly_price_ change_ percentage.sql>)
+**💻 Query:**[monthly_price_change%.sql](<Scripts/monthly_price_ change_ percentage.sql>)
 
 **📈 Visualization:** ![alt text](<images/monthhly per ret.png>)
 
@@ -114,7 +115,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 
 * Aggregated daily close prices by month.
 
-**💻 Query:**[monthly avg.sql](monthly_avg_closing.sql)
+**💻 Query:**[monthly_avg_closing.sql](Scripts/monthly_avg_closing.sql)
 
 **📈 Visualization:** ![alt text](<images/monthly avg.png>)
 
@@ -137,7 +138,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 * Used standard deviation of daily close prices.
 * Ranked by volatility per month.
 
-**💻 Query:**[most_volatile_stock_each_month.sql](most_volatile_stock_each_month.sql)
+**💻 Query:**[most_volatile_stock_each_month.sql](Scripts/most_volatile_stock_each_month.sql)
 
 **📈 Visualization:** ![alt text](<images/most volatile stock.png>)
 
@@ -159,7 +160,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 
 * Measured standard deviation over entire period.
 
-**💻 Query:** [volatility_for_each_stock.sql](volatility_for_each_stock.sql)
+**💻 Query:**[volatility_for_each_stock.sql](Scripts/volatility_for_each_stock.sql)
 
 **📈 Visualization:**![alt text](<images/v for each stock.png>)
 
@@ -181,7 +182,7 @@ Analysis of stock price behavior across four tech companies (AAPL, MSFT, GOOG, N
 
 * Subtracted first open from last close per year.
 
-**💻 Query:** [yearly_net_ret.sql](yearly_net_ret.sql)
+**💻 Query:** [yearly_net_ret.sql](Scripts/yearly_net_ret.sql)
 
 **📈 Visualization:** ![alt text](images/yearly.png)
 **📊 Key Findings:**
